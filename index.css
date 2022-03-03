@@ -1,0 +1,36 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+header{
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+nav{
+    margin: 15px 0;
+}
+
+
+article{
+    margin-bottom: 40px;
+}
+
+li{
+    margin: 10px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a>img{
+    height: 50px;
+    width: 50px;
+}
