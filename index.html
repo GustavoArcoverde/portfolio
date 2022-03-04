@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;700;800&display=swap"
@@ -14,80 +16,136 @@
     <base target="_blank">
 </head>
 
-<body>
+<body id="root">
     <header>
-        <h1>Gustavo Arcoverde de Morais</h1>
-        <small>Web Dev Full Stack em formação</small><br>
-        <small>email: garcoverde3@gmail.com</small>
+        <h2>
+            <a href="">Gustavo</a>
+        </h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Competências</a>
+                </li>
+                <li>
+                    <a href="">Trajetória</a>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <article>
-            <h2>Habilidades Tech</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git e Github</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Habilidades Soft</h2>
-            <ul>
-                <li>Gestão de Tempo</li>
-                <li>Feedback</li>
-                <li>Liderança</li>
-                <li>Inglês avançado</li>
-                <li>Libras iniciante</li>
-            </ul>
-        </article>
-        <article>
-            <h2>Formação</h2>
-            <ul>
-                <li>
-                    Ensino Médio Completo <br>
-                    <small>Colégio Estadual João Paulo II. 2018/2020</small>
-                </li>
-                <li>
-                    Web Dev <br>
-                    <small>Projeto da Resilia Educação: Códigos do Amanhã. 2022</small>
-                </li>
-            </ul>
-        </article>
-        <article>
-            <h2>Experiências</h2>
-            <ul>
-                <li>
-                    Dog Walker <br>
-                    <small>2020</small>
-                </li>
-
-
-                <li>
-                    Atendente de Quiosque de Açaí <br>
-                    <small>Dezembro de 2021.</small>
-                </li>
-
-
-                <li>
-                    Voluntário como Cuidador de Animais <br>
-                    <small>Fevereiro 2022/Atualmente</small>
-                </li>
-            </ul>
-        </article>
+        <section>
+            <div>
+                <h2>Gustavo Arcoverde de Morais</h2>
+                <small>Web Dev Full Stack em formação</small><br>
+                <p>Sobre (resumo em até 3 linhas)</p>
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </section>
+        <section id="competencias">
+            <h2>Competências</h2>
+            <article>
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>
+                        <img src="" alt="">
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <p>Git e Github</p>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>
+                        <p>Comunicação</p>
+                    </li>
+                    <li>
+                        <p>Gestão de Tempo</p>
+                    </li>
+                    <li>
+                        <p>Autodisciplina</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section id="trajetoria">
+            <h2>Trajetória</h2>
+            <article>
+                <h3>Formação</h3>
+                <ul>
+                    <li>
+                        <p>Ensino Médio Completo</p>
+                        <small>Colégio Estadual João Paulo II, 2018-2020</small>
+                    </li>
+                    <li>
+                        <p>Web Dev</p>
+                        <small>Resilia Educação, 2022</small>
+                    </li>
+                </ul>
+            </article>
+            <div>
+                <h3>Experiências</h3>
+                <ul>
+                    <li>
+                        <p>Tradutor de Conteúdo de Rpg de mesa</p>
+                        <small>Toca do Coruja, Novembro de 2021-Atualmente</small>
+                    </li>
+                    <li>
+                        <p>Voluntário na ONG Amigo Animal</p>
+                        <small>Fevereiro de 2022-Atualmente</small>
+                    </li>
+                    <li>
+                        <p>Dog Walker</p>
+                        <small>Free Lancer, 2018</small>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#">Email</a>
+                    </li>
+                    <li>
+                        <a href="#">Telefone</a>
+                    </li>
+                    <li>
+                        <a href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <nav>
-        <a href="https://www.instagram.com/gusarcoverde/">
-            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="">
-        </a>
-        <a href="https://twitter.com/gusarcoverde">
-            <img src="https://cdn-icons-png.flaticon.com/512/107/107195.png" alt="">
-        </a>
-        <a href="https://www.linkedin.com/in/gustavo-arcoverde/">
-            <img src="https://cdn-icons-png.flaticon.com/512/49/49408.png" alt="">
-        </a>
-        <a href="https://github.com/GustavoArcoverde">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
-        </a>
-    </nav>
+    <footer>
+        <small>Copyright © 2022. Todos os direitos reservados.</small>
+    </footer>
 </body>
 
 </html>
