@@ -5,6 +5,8 @@ body{
     color: var(--font-color);
 }
 
+/* HEADER */
+
 header{
     display: flex;
     flex-direction: row;
@@ -32,7 +34,7 @@ header>h2:hover{
 
 .links>a{
     margin: 5px;
-    padding: 15px 5px;
+    padding: 16px 5px;
     transition-duration: 0.5s;
 }
 
@@ -41,10 +43,7 @@ header>h2:hover{
     text-shadow: var(--primaria);
 }
 
-#inicio{
-    margin-top: 100px;
-}
-
+/* SECTIONS */
 
 section{
     margin-bottom: 40px;
@@ -60,7 +59,39 @@ a{
     color: var(--font-color);
 }
 
-a>img{
-    height: 50px;
-    width: 50px;
+/* SECTION INICIO */
+
+#inicio{
+    margin-top: 60px;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    width: 50%;
+    font-size: 22px;
+}
+
+.text>h2>span{
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-decoration-color: var(--secundaria);
+}
+
+.text>p{
+    margin-top: 15px;
+}
+
+.image{
+    width: 30%;
+}
+
+#inicio>div>img{
+    width: 300px;
+    height: 300px;
+    border: 8px double var(--secundaria); 
+    border-radius: 200px;
 }
