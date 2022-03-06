@@ -15,7 +15,7 @@ header{
     width: 100%;
     height: 48px;
     padding: 20px 50px;
-    background-color: var(--background-secundario);
+    background-color: var(--header);
     text-shadow: 1px 1px 3px var(--text-shadow);
     font-size: 20px;
     position: fixed;
@@ -104,9 +104,42 @@ a{
     padding: 50px 50px;
 }
 
+#competencias>h2{
+    color: var(--secundaria);
+    margin-left: 200px;
+}
+
 #competencias>div{
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.hard>ul{
+    width: 30%;
+}
+
+.soft>ul{
+    width: 70%;
+}
+
+article>ul>li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+article>ul>li>img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.imgCompetencias{
+    width: 30%;
+    height: 20%;
 }
