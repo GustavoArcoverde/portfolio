@@ -13,7 +13,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 48px;
     padding: 20px 50px;
     background-color: var(--background-secundario);
     text-shadow: 1px 1px 3px var(--text-shadow);
@@ -34,7 +34,7 @@ header>h2:hover{
 
 .links>a{
     margin: 5px;
-    padding: 16px 5px;
+    padding: 15px 5px;
     transition-duration: 0.5s;
 }
 
@@ -75,8 +75,9 @@ a{
     font-size: 22px;
 }
 
-.text>h2>span{
-    text-decoration: dashed;
+.text>h2{
+    text-decoration: dotted;
+    text-decoration-thickness: 10%;
     text-decoration-line: underline;
     text-decoration-color: var(--secundaria);
 }
@@ -94,4 +95,18 @@ a{
     height: 300px;
     border: 8px double var(--secundaria); 
     border-radius: 200px;
+}
+
+/* SECTION COMPETENCIAS */
+
+#competencias{
+    background-color: var(--background-secundario);
+    padding: 50px 50px;
+}
+
+#competencias>div{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
