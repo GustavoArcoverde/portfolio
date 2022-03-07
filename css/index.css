@@ -63,7 +63,7 @@ a{
 
 #inicio{
     margin-top: 60px;
-    padding: 60px 100px;
+    padding: 100px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -151,7 +151,7 @@ article>ul>li>img{
 /* SECTION TRAJETORIA */
 
 #trajetoria{
-    padding: 70px 50px;
+    padding: 50px 40px;
 }
 
 #trajetoria>div{
@@ -184,4 +184,26 @@ article>ul>li>img{
 .imgTrajetoria{
     width: 30%;
     height: 20%;
+}
+
+/* SECTION CONTATO */
+
+#contato{   
+    background-color: var(--background-secundario);
+    padding: 70px 50px;
+}
+
+#contato>h2{
+    text-align: center;
+    color: var(--secundaria);
+}
+
+#contato>div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
 }
